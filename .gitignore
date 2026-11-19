@@ -1,0 +1,22 @@
+# hasil render dan bukti (dibuat ulang oleh skrip)
+out/
+
+# cache dan lingkungan Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# data yang dibuat ulang oleh make_model.py
+data/pusaka_model.obj
+data/relief.ppm
+data/relief_asli.ppm
+
+# ekspor dari viewer web
+*_three.ppm
+*.ppm.bak
+
+# editor dan sistem
+.vscode/
+.idea/
+.DS_Store
